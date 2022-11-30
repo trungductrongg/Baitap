@@ -1,0 +1,185 @@
+.header {
+    display: flex;
+    height: 52px;
+    background-color: #3C4D59;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-weight: 400;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__back {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 2rem;
+    position: absolute;
+    top: 0;
+    margin-left: 18px;
+    font-size: 1.8rem;
+}
+
+.header__back span {
+    margin-left: 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+}
+
+.header__link:hover {
+    color: rgb(40,191,175);
+}
+
+.content {
+    margin: 12px 112px;
+}
+
+
+.button__new-item {    
+    margin-top: 36px;
+    border-radius: 5px;
+    color: var(--text-color);
+    border: none;
+    font-weight: 500;
+    background-color: white;
+    font-size: 1.8rem;
+    height: 46px;
+    width: 118px;
+}
+
+.button__new-item:hover {
+    color: #1DBFAF;
+    cursor: pointer;
+}
+
+.button__new-icon {
+    color: #1DBFAF;
+}
+
+.CV-list {
+    margin-top: 36px;
+    height: 184px;
+    width: 100%;
+    background: linear-gradient(0deg,rgba(66, 97, 118, 0.99) 20%,rgba(60,77,88,.85) 36%,rgba(60,77,88,.8) 40%,rgba(60,77,88,.7) 50%,rgba(85, 117, 138, 0.1) 95%,transparent);
+    border-radius: 5px;
+}
+
+.CV-list__title {
+    position: relative;
+}
+
+.CV-list__title-name {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 450;
+}
+
+/* .CV-list__title-icon {
+    display: flex;
+    color: white;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 20px;
+} */
+
+.CV-list__title-icon:hover {
+    color: #1DBFAF;
+    cursor: pointer;
+    display: block;
+}
+
+/* .CV-list__title-icon:hover .CV-list__edit{
+    display: block;
+    color: red;
+    cursor: pointer;
+} */
+
+
+.CV-list__title-bar {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    color: white;
+}
+
+.CV-list__title-bar:hover .CV-list__edit {
+    display: block;
+}
+
+.CV-list__title-bar:hover {
+    color: #1DBFAF;
+    cursor: pointer;
+}
+
+.avt-CV {
+    display: flex;
+    width: 45%;
+    margin: auto;
+}
+
+.CV-list__edit {
+    position: absolute;
+    top: 58px;
+    left: 110px;
+    background-color: #313131;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 7px rgba(0,0,0,.1);
+    cursor: unset;
+    padding: 0;
+    width: 160px;
+    display: none;
+}
+
+.js-CV-list__edit {
+    position: absolute;
+    top: 58px;
+    left: 110px;
+    background-color: #313131;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 7px rgba(0,0,0,.1);
+    cursor: unset;
+    padding: 0;
+    width: 160px;
+    display: block;
+}
+
+.CV-list__edit li {
+    margin-right: 12px;
+    width: 100%;
+    height: 33px;
+    list-style: none;
+    color: white;
+    line-height: 33px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #282828;
+}
+
+.CV-list__edit li:hover {
+    color: #1DBFAF;
+    cursor: pointer;
+}
+
+.CV-list__edit-icon {
+    padding: 0 16px;
+}
+

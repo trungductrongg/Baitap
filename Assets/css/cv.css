@@ -1,0 +1,259 @@
+.menu {
+    display: flex;
+    height: var(--toolbar-height);
+    justify-content: center;
+    left: 0;
+    margin-top: 16px;
+    position: fixed;
+    right: 30vw;
+    top: 0;
+    z-index: 9;
+}
+
+.menu__list {
+    background-color: #425061;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.menu__list-left {
+    align-items: center;
+    display: flex;
+    height: var(--toolbar-height);
+    position: relative;
+}
+
+.menu__list-left-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.menu__list-item {
+    color: #fff;
+    list-style: none;
+    margin-right: 16px;
+    position: relative;
+}
+
+.menu__list-item:hover,
+.menu__list-manager:hover,
+.menu__list-right-zoom-icon:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.menu__list-item span {
+    font-size: 1.6rem;
+    margin-left: 6px;
+}
+
+.menu__list-right {
+    align-items: center;
+    display: flex;
+    height: var(--toolbar-height);
+    position: relative;
+}
+
+.menu__list-right-zoom {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.menu__list-right-zoom-icon {
+    color: #fff;
+    font-size: 1.4rem;
+    list-style: none;
+    margin-right: 16px;
+    position: relative;
+}
+
+.menu__list-download {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 999px;
+    color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    padding: 8px 12px;
+    position: relative;
+    transition: background-color .25s linear;
+    width: 120px;
+}
+
+.menu__list-download:hover {
+    background-color: rgba(26, 181, 153, 0.8);
+    cursor: pointer;
+}
+
+.menu__list-manager {
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    height: var(--toolbar-height);
+    line-height: calc(var(--toolbar-height) - 2);
+    outline: none;
+    padding: 2px 18px 0 28px;
+    position: relative;
+}
+
+.CV {
+    width: 100%;
+    height: 100%;
+}
+
+.CV-right {
+    bottom: 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    background-color: #3d3d3d;
+}
+
+.CV-left {
+    width: 70%;
+}
+
+.CV-right-label {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.CV-left__content {
+    display: block;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+}
+
+.CV-left__name {
+    margin: 100px auto 48px;
+    width: 700px;
+}
+
+.CV-left__name-title {
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 30px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+
+.CV-cv__page1 {
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+    height: 872px;
+    position: relative;
+    text-align: left;
+    white-space: normal;
+    width: 90%;
+    padding: 1.4rem;
+    margin: 2em auto;
+}
+
+.CV-cv__page1-info {
+    display: block;
+}
+
+.CV-cv__page1-info-info {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding: 0 20px;
+    transition: width .01s,height .01s;
+    width: 100%;
+}
+
+.CV-cv__page1-info-title {
+    bottom: auto;
+    left: auto;
+    margin: auto;
+    padding: 4px 0;
+    position: relative;
+    right: auto;
+    top: auto;
+    width: auto;
+}
+.info-title {
+    font-size: 4rem;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+.discription-title {
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    font-weight: 450;
+}
+
+.CV-cv__page1-content {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding: 20px 20px;
+    transition: width .01s,height .01s;
+    width: 75%;
+}
+.CV-cv__page1-content-- {
+    width: 45%;
+    padding: 8px;
+    font-weight: 450;
+    font-size: 1.7rem;
+}
+
+
+
+.CV-cv__page1-avt {
+    bottom: auto;
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+    top: 4.4rem;
+    z-index: 1;
+}
+
+
+
+.category-icon {
+    text-align: left;
+    font-size:2.2rem;
+    margin-left: 22px;
+}
+
+.category-tieude {
+    width: 90%;
+    display:inline;
+    font-size:2.2rem;
+    font-weight:600;
+    outline: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-left: 2px;
+    margin: 16px 0;
+}
+.chiadoi {
+    width: 100%;
+    height: 50px;
+}

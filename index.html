@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/base.css">
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <header class="header hide-Bar">
+            <a class="header__link" href="./CV.html">
+                <div class="header__back">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Quay lại</span>
+                </div>
+            </a>
+            <div>
+                <h1>Quản lý CV</h1>
+            </div>
+        </header>
+        <div class="app">
+            <div class="content">
+                <div class="button__new">
+                    <button class="button__new-item">
+                        <i class="button__new-icon fa-solid fa-circle-plus"></i>
+                        Tạo mới
+                    </button>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__column-4">
+                        <div class="CV-list">
+                            <div class="CV-list__title">
+                                <a href="#">
+                                    <img src="https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2020/03/17/trend-avatar-1.jpg"
+                                        class="avt-CV" alt="CV chua co anh">
+                                    <h4 class="CV-list__title-name">
+                                        Nguyen Van A - Fullstack Developer
+                                    </h4>
+                                </a>
+                                <div>
+                                    <ul class="CV-list__title-bar">
+                                        <li>
+                                            <div class="CV-list__title-bar js-click-bar">
+                                                <svg class="" width="18" height="18" viewBox="0 0 16 16">
+                                                    <path fill="currentColor"
+                                                        d="M10 8a2 2 0 1 1-3.999.001A2 2 0 0 1 10 8zM4 8a2 2 0 1 1-3.999.001A2 2 0 0 1 4 8zM16 8a2 2 0 1 1-3.999.001A2 2 0 0 1 16 8z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </li>
+    
+                                        <ul class="CV-list__edit">
+                                            <li>
+                                                <i class="CV-list__edit-icon fa-solid fa-pencil"></i>
+                                                Sửa
+                                            </li>
+                                            <li>
+                                                <i class="CV-list__edit-icon fa-solid fa-eye"></i>
+                                                Xem
+                                            </li>
+                                            <li>
+                                                <i class="CV-list__edit-icon fa-solid fa-trash"></i>
+                                                Xóa
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- <script>
+        const clickBars = document.querySelectorAll('.js-click-bar')
+        const editBar = document.querySelector('.CV-list__edit')
+        const hide = document.querySelector('.hide-Bar')
+
+        function showBar() {
+            editBar.classList.add('js-CV-list__edit')
+        }
+
+        function hideBar() {
+            editBar.classList.remove('js-CV-list__edit')
+        }
+
+        for (const clickBar of clickBars) {
+            clickBar.addEventListener('click', showBar)
+        }
+        hide.addEventListener('click', hideBar)
+        
+
+    </script> -->
+
+</body>
+
+</html>
